@@ -1,6 +1,7 @@
 package com.example.android.moviesrv;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         if (error instanceof TimeoutError || error instanceof NoConnectionError) {
 
                         } else if (error instanceof AuthFailureError) {
-                            //TODO
+                            //Toast.makeText(getApplicationContext(),"AuthFailureError",Toast.LENGTH_SHORT).show();
                         } else if (error instanceof ServerError) {
                             //TODO
                         } else if (error instanceof NetworkError) {

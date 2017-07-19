@@ -6,7 +6,7 @@ package com.example.android.moviesrv;
 
 public class Config {
     //URL API
-    public static final String DATA_URL = "http://www.halaskitchen.com/movies.json";
+    public static final String DATA_URL = "https://api.androidhive.info/json/movies.json";
 
     //Tags for JSON
     public static final String TAG_IMAGE_URL = "imageUrl";
